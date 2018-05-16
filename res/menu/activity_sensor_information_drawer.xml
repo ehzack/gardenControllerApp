@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/information"
+            android:title="Information sur plante" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/update"
+            android:title="Paramètre de plante" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Photo" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/iconehistorique"
+            android:title="Historique"
+            >
+
+                <item
+                    android:id="@+id/historiquecomplet"
+                    android:icon="@drawable/iconehistorique"
+                    android:title="Historique complet"
+
+                    />
+
+
+
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Déconnecter" />
+        </menu>
+    </item>
+
+</menu>
